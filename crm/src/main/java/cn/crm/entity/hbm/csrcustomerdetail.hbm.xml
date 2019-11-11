@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.crm.entity.CstCustomerDetail"
+		table="cst_customer_detail">
+		<id name="custId">
+			<!-- 主键序列生成策略 -->
+		</id>
+		<property name="custRegion" />
+		<property name="custZip" />
+		<property name="custAddress" />
+		<property name="custFax" />
+		<property name="custWebsite" />
+		<property name="custLicence" />
+		<property name="custCorporation" />
+		<property name="custCapital" />
+		<property name="custBank" />
+		<property name="custMemo" />
+	</class>
+
+</hibernate-mapping>

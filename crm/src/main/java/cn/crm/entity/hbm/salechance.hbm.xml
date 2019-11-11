@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.crm.entity.SaleChance" table="sale_chance">
+		<id name="chanId">
+			<!-- 主键序列生成策略 -->
+		</id>
+		<property name="chanName" />
+		<property name="chanCustId" />
+		<property name="chanUserId" />
+		<property name="chanMoney" />
+		<property name="chanType" />
+		<property name="chanSource" />
+		<property name="chanState" />
+		<property name="chanLkmId" />
+		<property name="chanLinktime" />
+		<property name="chanDesc" />
+	</class>
+</hibernate-mapping>

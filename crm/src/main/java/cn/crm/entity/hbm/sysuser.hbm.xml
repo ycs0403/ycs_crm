@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.crm.entity.SysUser" table="sys_user">
+		<id name="userId">
+			<!-- 主键序列生成策略 -->
+			<generator class="native"/>
+		</id>
+		<property name="userCode" />
+		<property name="userName" />
+		<property name="userPassword" />
+		<property name="userState" />
+	</class>
+
+</hibernate-mapping>

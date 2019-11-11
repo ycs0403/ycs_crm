@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.crm.entity.SysUserDetail" table="sys_user_detail">
+		<id name="userDetailId">
+			<!-- 主键序列生成策略 -->
+		</id>
+		<property name="userAge" />
+		<property name="userAddr" />
+		<property name="userResume" />
+	</class>
+
+</hibernate-mapping>

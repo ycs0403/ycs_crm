@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.crm.entity.SaleVisit" table="sale_visit">
+		<id name="visitId">
+			<!-- 主键序列生成策略 -->
+		</id>
+		<property name="visitCustId" />
+		<property name="visitUserId" />
+		<property name="visitLkmId" />
+		<property name="visitTime" />
+		<property name="visitAddr" />
+		<property name="visitDetail" />
+		<property name="visitNexttime" />
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.crm.entity.CstCustomer" table="cst_customer">
+		<id name="custId">
+			<!-- 主键序列生成策略 -->
+		</id>
+		<property name="custName" />
+		<property name="custUserId" />
+		<property name="custCreateId" />
+		<property name="custSource" />
+		<property name="custIndustry" />
+		<property name="custLevel" />
+		<property name="custLinkman" />
+		<property name="custPhone" />
+		<property name="custMobile" />
+	</class>
+
+</hibernate-mapping>
