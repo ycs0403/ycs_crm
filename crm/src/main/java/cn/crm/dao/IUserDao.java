@@ -19,4 +19,15 @@ public interface IUserDao {
 	 * @throws   
 	 */  
 	void save(SysUser sysUser);
+	
+	  
+	/**   
+	 * @Title: login   
+	 * @Description: 登录
+	 * @param: @param sysUser
+	 * @param: @return      
+	 * @return: SysUser      
+	 * @throws   
+	 */  
+	SysUser login(SysUser sysUser);
 }

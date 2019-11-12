@@ -19,4 +19,13 @@ public interface IUserBiz {
 	 * @throws   
 	 */  
 	void regist(SysUser sysUser);
+	
+	/**   
+	 * @Title: login   
+	 * @Description: 登录
+	 * @param: @param sysUser      
+	 * @return: void      
+	 * @throws   
+	 */  
+	SysUser login(SysUser sysUser);
 }

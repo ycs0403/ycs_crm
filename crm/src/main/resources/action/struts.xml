@@ -2,13 +2,20 @@
 <!DOCTYPE struts PUBLIC
 	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
 <struts>
-	<package name="default" namespace="/" extends="struts-default">
+	<package name="crm" namespace="/" extends="struts-default">
+		
+		<!-- 全局结果 -->
+		<global-results>
+			<result name="login">/login.htm</result>
+		</global-results>
 
 		<!-- 用户管理 -->
 		<action name="user_*" class="cn.crm.action.UserAction"
 			method="{1}">
+			<result name="success" type="redirect" >/index.htm</result>
 		</action>
-		
+
 	</package>
 </struts>
